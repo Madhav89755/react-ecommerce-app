@@ -17,7 +17,7 @@ const Register = () => {
 
     let url = `http://localhost:3000/user`;
     
-    if (email != '' && password !=''){
+    if (email !== '' && password !==''){
       let body_data, header_data;
 
       body_data = {

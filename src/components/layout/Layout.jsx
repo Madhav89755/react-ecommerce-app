@@ -1,6 +1,6 @@
 import React from "react";
 import { Outlet, Link } from "react-router-dom";
-import "./App.css";
+import "../../App.css";
 
 const LinkComponent = ({ props }) => {
   const { page_name, page_url } = props;
